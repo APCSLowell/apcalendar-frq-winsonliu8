@@ -16,7 +16,7 @@ public class APCalendar
     int sum = 0; 
     int yearNumber = year1; 
     while(yearNumber <= year2){
-      if (isLeapYear(yearNUmber) == true){
+      if (isLeapYear(yearNumber) == true){
         sum++; 
       }
       yearNumber++; 
