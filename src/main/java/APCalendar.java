@@ -24,7 +24,7 @@ public class APCalendar
     return sum; 
   }
   
-  /** Returns the value representing the day of the week for the first day of year,
+  /* Returns the value representing the day of the week for the first day of year,
    *  where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday.
    */
   private static int firstDayOfYear(int year)
