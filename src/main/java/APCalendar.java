@@ -59,7 +59,7 @@ public class APCalendar
     /* to be implemented in part (b) */
     int n = dayOfYear(month, day, year); 
     int dWeek = firstDayOfYear(year); 
-    int a = ((dWeek+n)%7)-1; 
+    int a = (dWeek+n-1)%7; 
     return a; 
   }
 }
