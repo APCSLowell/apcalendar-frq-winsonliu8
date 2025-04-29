@@ -33,10 +33,7 @@ public class APCalendar
       return (2 + 365*(year - 1980) + numberOfLeapYears(1980, year-1)) % 7;
   }
 
-  /** Returns n, where month, day, and year specify the nth day of the year.
-   *  Returns 1 for January 1 (month = 1, day = 1) of any year.
-   *  Precondition: The date represented by month, day, year is a valid date.
-   */
+
   private static int dayOfYear(int month, int day, int year)
   {
     final int[] daysInMonth = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
